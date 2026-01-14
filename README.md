@@ -1,3 +1,5 @@
+# Sign-Language-Translation
+
 ## ASL Landmark Recognition (MediaPipe + MLP)
 
 This project recognizes ASL alphabet gestures using **MediaPipe Hands** landmarks and a small **MLP** classifier.
@@ -70,4 +72,3 @@ Captures hand landmarks from your webcam and saves `landmark_data.csv`:
 `python main.py collect`
 
 Press `s` to save a sample, `q` to quit.
-
