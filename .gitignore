@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.history/
+.vscode/*
+!.vscode/tasks.json
+
+# Datasets / large binaries (do not commit)
+asl_alphabet_train/
+ASL_Dataset.zip
+*.zip
+
+# Generated training artifacts
+asl_landmark_data.csv
+landmark_data.csv
+*_landmark_*.csv
+*.npy
+*.h5
+*.keras
+
+# Documents / slides / images not needed for code
+*.pptx
+*.pdf
+asl-getty-images.jpg
